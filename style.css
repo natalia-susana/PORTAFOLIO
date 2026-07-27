@@ -1,0 +1,52 @@
+:root {
+  --azul-rey: #1e3a8a;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/*  navbar */
+.navbar-brand {
+  color: var(--azul-rey);
+  font-weight: 500;
+}
+
+.nav-link.active {
+  color: var(--azul-rey);
+  border-bottom: 2px solid var(--azul-rey);
+}
+
+/* botones */
+.btn-primary {
+  background-color: var(--azul-rey);
+  border-color: var(--azul-rey);
+}
+
+.btn-primary:hover {
+  background-color: #16296b;
+  border-color: #16296b;
+}
+
+/* hero */
+.hero {
+  background-color: #e6ecf7;
+}
+
+/* ver todos los proyectos →", "conóceme más →" */
+.link-flecha {
+  color: #5f5e5a;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.link-flecha:hover {
+  color: var(--azul-rey);
+}
+
+/* carrusel texto negro */
+.carousel-textonegro {
+  color: #000;
+  font-size: 1.1rem;
+
+}

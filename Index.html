@@ -4,20 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tu nombre · Portafolio</title>
+    <title>Portafolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <!-- aun en provecso -->
+
 <body>
-
-    <h1>Holaaaa, aún me falta corregir la redacción y agregar contenido a las demás secciones, disculpen pero 
-        demoré mucho en esocger un diseño, seguí navegando por el github pages pero no me temrinó de convecer, y queria algo simple y directo, pero con un toque especial para mi
-    </h1>
-
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-        <div class="container">
-            <a class="navbar-brand" href="index.html"> Portafoio</a>
+
+        <div class="container"> <!--Centrar contenido-->
+            <a class="navbar-brand" href="index.html"> ⛰️ Portafolio</a>
+            <!--Con esto hacemos que sea clicleable y nos regrese al inicio.-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
                 aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
                 <span class="navbar-toggler-icon"></span>
@@ -26,9 +25,8 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="sobre-mi.html">Acerca de mí</a></li>
-                    <li class="nav-item"><a class="nav-link" href="cv.html">CV (aún viendo si lo voy a agregar por aquello de la privacidad)</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog (tips de errrores) </a></li>
+                    <li class="nav-item"><a class="nav-link" href="acercade.html">Acerca de mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
                     <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
                 </ul>
             </div>
@@ -36,33 +34,56 @@
     </nav>
 
     <header class="hero text-center">
+
         <div class="container py-5">
-            <h1 class="fw-medium mb-2">Natalia Cruz</h1>
-            <p class="lead mb-1">Física, dessarroladora  full stack</p>
-            <p class="fst-italic mb-4">Aún viendo qué tecnoloias poner</p>
-            <a href="contacto.html" class="btn btn-primary px-4">Contáctame</a>
+
+            <h1 class="fw-medium mb-1">Natalia Cruz</h1>
+            <p class="lead mb-1">Desarrolladora Java Full Stack </p>
+            <p class="fst-italic mb-4"> "A través del esfuerzo, el triunfo"</p>
+
+            <a href="mailto:nataliasusanacruzruiz@gmail.com" target="_blank" class="btn me-1">
+                <i class="bi bi-envelope-at"></i>
+            </a>
+
+            <a href="https://github.com/natalia-susana" target="_blank" class="btn me-1">
+                <i class="bi bi-github"></i>
+                <!--<svg xmlns="http://www.w3.org/2000/svg" width="15" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                </svg> ESTE TAMBIEN TE LO DA BOOTSTRAP, PARA EDITARLO MEJOR-->
+            </a>
+
+            <a href="https://www.linkedin.com/in/nataliasusana" target="_blank" class="btn me-1">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            
+            <a href="contacto.html" class="btn btn-primary px-3">Contáctame</a>
+
         </div>
     </header>
 
     <section class="py-5">
         <div class="container">
-            <h2 class="text-center mb-4">proyectos</h2>
+            <h2 class="text-center mb-4">Proyectos</h2>
             <div class="row g-4 mb-3">
                 <div class="col-md-6">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title">hackatón GM legacy</h5>
-                            <p class="card-text">HTML · CSS · JavaScript</p>
+                    <a href="proyectos.html" class="text-decoration-none text-dark">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">GM Legacy - Landing page</h5>
+                                <p class="card-text">HTML · JavaScript · CSS · Bootstrap</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-6">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title">E commerc</h5>
-                            <p class="card-text">proyecto integrador</p>
+                    <a href="proyectos.html" class="text-decoration-none text-dark">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">Toro Forrajero - E-commerce</h5>
+                                <p class="card-text">HTML · JavaScript · CSS · Bootstrap</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
             <p class="text-center">
@@ -73,20 +94,28 @@
 
     <section class="py-5 bg-light">
         <div class="container text-center">
-            <p class="mb-2">Física  apasionada por resolver problemas.</p>
-            <a href="sobre-mi.html" class="link-flecha">Conóceme más →</a>
+            <p class="mb-2">Me emociona resolver problemas, ya sea con una ecuación,
+                función o escalando una montaña. Cuando no estoy programando, probablemente estoy de viaje,
+                en el gimnasio o con la cámara en mano. </p>
+            <a href="acercade.html" class="link-flecha">Conóceme más →</a>
         </div>
     </section>
 
     <section class="py-5 text-center">
         <div class="container">
-            <p class="mb-3">podrias contactame</p>
+            <p class="mb-3">Siempre hay una cima más, ¿la escalamos juntos? </p>
             <a href="contacto.html" class="btn btn-primary px-4">Contáctame</a>
         </div>
     </section>
 
     <footer class="text-center py-4 bg-light">
-        <p class="mb-0 small text-muted">Todos los derchos reservadoa </p>
+        <p class="mb-2 small">
+            <a href="mailto:nataliasusanacruzruiz@gmail.com" class="link-flecha me-2">Correo</a>
+            <a href="https://github.com/natalia-susana" class="link-flecha me-2">GitHub</a>
+            <a href="https://linkedin.com/in/nataliasusana" class="link-flecha me-2">LinkedIn</a>
+            
+        </p>
+        <p class="mb-0 small text-muted">Hecho con HTML, JavaScript, CSS y Bootstrap</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
